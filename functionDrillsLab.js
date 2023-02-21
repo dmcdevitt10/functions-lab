@@ -283,7 +283,7 @@ function theEliminator(c, loser){
       c.splice(i, 1)
     }
   } 
-  return [...c]
+  return c
 }
 console.log(theEliminator(contestants, loser))
 
